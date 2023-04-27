@@ -1,0 +1,3 @@
+enum ShopEventType {
+  init,
+}

@@ -1,0 +1,1 @@
+const kNetworkBaseUrl = 'https://dummyjson.com/auth/';

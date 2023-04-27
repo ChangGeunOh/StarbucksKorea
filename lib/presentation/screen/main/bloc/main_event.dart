@@ -1,0 +1,3 @@
+enum MainEventType {
+  init, route,
+}
