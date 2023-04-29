@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:starbucks/domain/bloc/basic_layout.dart';
+import 'package:starbucks/domain/bloc/bloc_layout.dart';
 
 class BlocScaffold<B extends StateStreamableSource<S>, S>
-    extends BasicLayout<B, S> {
+    extends BlocLayout<B, S> {
   final AppBar? appBar;
   final Color? backgroundColor;
   final Widget? bottomSheet;

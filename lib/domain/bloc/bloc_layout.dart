@@ -25,22 +25,4 @@ class BlocLayout<B extends StateStreamableSource<S>, S>
     );
   }
 
-  // @override
-  // Widget build(BuildContext context) {
-  //   return BlocProvider(
-  //     create: create,
-  //     child: BlocBuilder<B, S>(
-  //       builder: (context, state) {
-  //         final bloc = context.read<B>();
-  //         return Scaffold(
-  //           appBar: appBar,
-  //           backgroundColor: backgroundColor,
-  //           body: builder(context, bloc, state),
-  //           bottomSheet: bottomSheet,
-  //           bottomNavigationBar: bottomNavigationBar,
-  //         );
-  //       },
-  //     ),
-  //   );
-  // }
 }
