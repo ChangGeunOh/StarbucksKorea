@@ -1,6 +1,6 @@
 # starbucks
 
-The Starbucks Korea
+The Starbucks Korea App Clone Coding
 
 ## Getting Started
 
